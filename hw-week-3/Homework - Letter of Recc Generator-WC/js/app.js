@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  //I'll admit, I had too much fun playing with this. Nice job
+
 	$('input#makeLetter').click(function(){
 
 		$( "p" ).empty();

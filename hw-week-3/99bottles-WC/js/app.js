@@ -8,5 +8,7 @@ $(document).ready(function(){
 
 	$('div.bottles').append( '<h1><strong> Get more beer!</strong></h1>');
 
+	//Nice Job Ryan! Looks great!
+
 
 });
