@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="description" content="description goes here.">
+
+		<title>Template</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+
+
+
+		<div class="toDo">
+
+			<h1>To Do List:</h1>
+
+			<div class="inner">
+
+				<ul id="list">
+				</ul>
+
+				<form id="composer">
+					<input id="new-thing" type="text" autocomplete="false" />
+					<button class="fa fa-pencil" id="myButton" type="submit"></button>
+				</form>
+
+			</div>
+
+		</div>
+
+	</body>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/x-handlebars-template" id="listHtml">
+		<li class="original" data-item-id="{{listItemID}}">
+			<input type="checkbox">{{listItem}}
+			<span><a class="deleteItem" href="#">{{deleteText}}</a></span>
+		</li>
+	</script>
+</html>
+
+
+
+
