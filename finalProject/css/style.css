@@ -1,0 +1,118 @@
+body {
+    background-color: green;
+    font-family: : Verdana;
+}
+
+#game {
+    width: 800px;
+    height: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.buttonRow {
+    width: 120px;
+    height: 50px;
+    font-size: 22px;
+    margin: 0 0 15px 0;
+    display: inline-block;
+    margin: 15px 6px;
+}
+
+
+#dealer,
+#player {
+    height: 300px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+#winner {
+    height: 100px;
+    font-size: 40px;
+    padding-top: 150px;
+}
+
+.amount {
+    display: inline-block;
+
+}
+
+#betAmount {
+    
+}
+
+
+
+.moneyRow {
+    display: inline-block;
+    font-size: 36px;
+    padding: 35px;
+    font-weight: 400;
+    font: arial;  
+
+}
+
+
+.selected {
+    background-color: #CCA;
+}
+
+.winnerFound {
+    font-size: 80px !important;
+}
+
+#leaderboardTable {
+    float: right;
+    margin-right: 2%;
+}
+
+#chip {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    line-height: 50px;
+    background-color: #CCC;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#login {
+    text-align: center;
+}
+
+#signIn, #nameOfUser { 
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#playerImageCard img, #dealerImageCard img{
+    height: 220px;
+    width: 160px;
+    box-shadow: 0 0 3pt 2pt black;
+    border-radius: 10px;
+}
+
+#dealerSlot {
+    float: left;
+}
+
+#playerSlot {
+    float: right;
+}
+
+#cardArea {
+    /*height: 200px;*/
+    margin-top: 40px;
+}
+
+#scoreBar {
+    background-color: #777; 
+    border-radius: 25px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 3pt 2pt black;
+    display: inline-block;
+    width: 900px;
+    padding-left: 10px;
+}

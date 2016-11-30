@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Hi-Lo Casino</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+
+<body>
+
+
+
+        <div id="login">
+        <h1>Welcome to the Hi-Lo Casino!</h1>
+        </div>
+
+        <div id="signIn" >
+        <button disabled class="mdl-button mdl-js-button mdl-button--raised" id="quickstart-sign-in">Sign in with Google</button>
+        </div>
+
+        <div id="nameOfUser"></div>
+
+  <!--       <div id="highScoreList">
+          <h2>Top Scores</h2>
+          <ul id="topScores">
+            
+          </ul>
+        </div> -->
+
+        <table id="leaderboardTable" border=1 width=400>
+          <tr>
+            <th>Name</th>
+            <th>Score</th>
+          </tr>
+        </table>
+
+ 
+
+
+    <div id="game">
+   
+        <div id="cardArea">
+          <div id="dealerSlot">
+            <h2>Dealer:</h2>
+            <div id="dealerImageCard"><img src="img/cards/blank.png"></div>
+            <div id="dealer"></div>
+          </div>
+
+          
+          <div id="playerSlot">
+          <h2>Player:</h2>
+            <div id="playerImageCard"><img src="img/cards/blank.png"></div>
+            <div id="player"></div>
+          </div>
+
+          <div id="winner"></div>
+        </div>
+        
+        <div id="scoreBar">
+        <div class="moneyRow" id="betAmount"></div>
+        <div class="moneyRow" id="totalAmount"></div>
+        <div class="moneyRow" id="highScore"></div>
+        </div>
+
+        <div id="bet">
+            <div class="amount" data-amount="1.00"><img id="chip" src="img/1.png"></div>
+            <div class="amount" data-amount="2.00"><img id="chip" src="img/2.png"></div>
+            <div class="amount" data-amount="5.00"><img id="chip" src="img/5.png"></div>
+            <div class="amount" data-amount="25.00"><img id="chip" src="img/25.png"></div>
+        </div>
+        <button class="buttonRow" id="deal">Deal Hand</button>
+        <button class="buttonRow" id="reset">Reset Bet</button>
+
+
+
+    </div>
+
+
+
+
+<script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+</body>
